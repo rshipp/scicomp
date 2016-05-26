@@ -1,0 +1,13 @@
+% Lab 01-25 question 3
+
+x = [ 0 ];
+y = [ 0 ];
+for i = 1:10
+    x(i+1)=x(i)+randn;
+    y(i+1)=y(i)+randn;
+end
+
+cla
+hold on
+plot(x,y,'o-')
+plot(0,0,'ro')

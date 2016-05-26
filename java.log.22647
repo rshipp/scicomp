@@ -1,0 +1,9 @@
+  Operating System: Linux 3.13.0-77-generic #121-Ubuntu SMP Wed Jan 20 10:50:42 UTC 2016 x86_64
+  Processor ID:     x86 Family 6 Model 60 Stepping 3, GenuineIntel
+  Host Name:        ch215L-01
+FATAL ERROR in native method: Nativewindow X11 IOError: Display 0x7fe0e0e9cd50 (:0): Resource temporarily unavailable
+	at sun.awt.X11.XlibWrapper.XEventsQueued(Native Method)
+FATAL ERROR in native method: Nativewindow X11 IOError: Display 0x7fe0e0080400 (:0): Resource temporarily unavailable
+	at sun.awt.X11.XToolkit.run(Unknown Source)
+	at sun.awt.X11.XToolkit.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
